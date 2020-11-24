@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@100;400;500;800&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #1E222E;
+  color: #C4C4C4;
 }
 
 a {
@@ -13,4 +16,21 @@ a {
 
 * {
   box-sizing: border-box;
+  font-family: 'Texturina', serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(119, 104, 104); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #F57922;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F57922; 
 }
